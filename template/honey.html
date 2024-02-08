@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample django project</title>
+</head>
+<body>
+    {% extends "honey2.html" %}
+    {% block content %}
+    <form action = "add">
+        <h1> enter 1st number : <input type="text" name="num1"><br>
+         enter 2nd number : <input type="text" name="num2">
+     </h1><input type="submit">
+     </form>
+
+    {% endblock %}
+</body>
+</html> 
